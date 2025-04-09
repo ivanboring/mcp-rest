@@ -1,11 +1,11 @@
 {
-  "name": "mcp-rest",
-  "version": "1.0.0",
+  "name": "mcp-rest-wrapper",
+  "version": "1.0.1",
   "description": "REST API wrapper around mcp-client",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "mcp-rest": "./index.js"
+    "mcp-rest-wrapper": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,7 +22,6 @@
     "body-parser": "^1.20.3",
     "commander": "^12.1.0",
     "express": "^5.1.0",
-    "mcp-client": "^1.12.0",
-    "supergateway": "^2.6.0"
+    "mcp-client": "^1.12.0"
   }
 }
